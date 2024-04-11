@@ -1,0 +1,75 @@
+.profile {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #003cff;
+    background-color: #c1defd;
+}
+
+.profile-info {
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.profile-info div {
+    margin-bottom: 10px;
+}
+
+.profile-info strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
+h1{
+    text-align: center;
+}
+.error-message:empty {
+    display: none; 
+}
+.error-message {
+    color: red; 
+    background-color: #ffebee; 
+    border: 1px solid #e53935; 
+    padding: 10px; 
+    border-radius: 5px; 
+    margin-bottom: 10px;
+}
+.back-btn {
+    text-align: left; 
+}
+
+.back-btn a {
+    text-decoration: none; 
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.back-btn a:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.edit-btn {
+    text-align: right;
+}
+.edit-btn a {
+    text-decoration: none; 
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.edit-btn a:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
